@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  position: relative;
+}
+.header {
+  background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+  height: 70vh;
+  font-size: 2.4rem;
+  color: #fff;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+  text-transform: uppercase;
+}
+.more-infor {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-item a:link,
+.nav-item a:visited,
+.meet-me a:link,
+.meet-me a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.nav-item a:hover,
+.nav-item a:active {
+  color: #495057;
+}
+.meet-me a:hover,
+.meet-me a:active {
+  color: #ced4da;
+}
+.container {
+  padding: 2.4rem;
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+}
+.main {
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  margin: 0 20rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.6);
+}
+.author-img {
+  width: 30rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
+}
+.author-img:hover {
+  transform: translateY(-2rem);
+  box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.5);
+}
+.right-side {
+  font-size: 1.8rem;
+  color: #495057;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-transform: uppercase;
+}
+.author-greeting {
+  font-weight: 500;
+  color: #868e96;
+  letter-spacing: 1.3px;
+}
+.author-name {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #343a40;
+}
+.author-job {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.author-testimonial {
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  font-size: 2.6rem;
+  font-family: "Satisfy", sans-serif;
+}
+.testimonial-name {
+  font-family: "Satisfy", sans-serif;
+  font-size: 2.2rem;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-hobbies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 1.2rem;
+  width: 60%;
+}
+.hobbie {
+  transition: all 0.5s;
+}
+.hobbie:hover {
+  transform: scale(1.1);
+}
+.hobbie-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.list-infor {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.fb-name:link,
+.fb-name:visited {
+  color: #343a40;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.fb-name:hover,
+.fb-name:active {
+  text-decoration: underline;
+}
